@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profile" >
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:textAlignment="center"
+        android:padding="10px"
+        android:fontFamily="sans-serif-black"
+        android:background="@drawable/border"
+        android:textColor="@color/text"
+        android:textSize="24dp"
+        android:text="@string/profile" />
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical"
+            android:layout_margin="50px"
+            android:src="@drawable/border"
+            >
+
+            <TextView
+                android:id="@+id/pname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="70px"
+                android:text="Name " />
+
+            <TextView
+                android:id="@+id/nameVal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:text="ggg" />
+
+            <TextView
+                android:id="@+id/pemailId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="70px"
+                android:text="EmailId" />
+
+            <TextView
+                android:id="@+id/emailIdVal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/pphoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="70px"
+                android:text="PhoneNo" />
+
+            <TextView
+                android:id="@+id/phoneNoVal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/pgender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="70px"
+                android:text="Gender" />
+
+            <TextView
+                android:id="@+id/genderVal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/paddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="70px"
+                android:text="Address" />
+
+            <TextView
+                android:id="@+id/addVal1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/addVal2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/addVal3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/addVal4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/ppincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="70px"
+                android:text="Pincode" />
+
+            <TextView
+                android:id="@+id/pincodeVal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:text="" />
+
+        </LinearLayout>
+        
+
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:tooltipText="edit profile"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+</LinearLayout>

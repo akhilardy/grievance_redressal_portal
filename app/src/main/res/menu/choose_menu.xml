@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/options"
+        android:icon="@drawable/ic_account_icon"
+        android:title="choose_options"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/idtitle"
+                android:title="profile"
+                app:showAsAction="never"
+
+                />
+            <item
+                android:id="@+id/idsub"
+                android:title="my submissions"
+                app:showAsAction="never"
+
+                />
+            <item
+                android:id="@+id/idlogout"
+                android:title="Logout"
+                app:showAsAction="never"
+
+                />
+        </menu>
+    </item>
+
+</menu>
